@@ -1,13 +1,17 @@
 import React from 'react';
 import './NewsArticle.css';
 
-class NewsArticle = () => {
+const NewsArticle = ({id, headline, img, description, url}) => {
+  const style = {
+    backgroundImage: `url('${img}')`,
+  };
+
   return (
     <div className='card'>
-      <img>
+      <div className="card-img" style={style}/>
       <h3>{headline}</h3>
       <p>{description}</p>
-      <url>
+      <a href={url}>LINK</a>
     </div>
   )
 }
