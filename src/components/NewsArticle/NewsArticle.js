@@ -1,6 +1,15 @@
 import React from 'react';
 import './NewsArticle.css';
 
-// NEWSARTICLE COMPONENT CODE GOES HERE
+class NewsArticle = () => {
+  return (
+    <div className='card'>
+      <img>
+      <h3>{headline}</h3>
+      <p>{description}</p>
+      <url>
+    </div>
+  )
+}
 
 export default NewsArticle;
