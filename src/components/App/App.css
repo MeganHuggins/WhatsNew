@@ -5,17 +5,12 @@
 }
 
 .app {
-  /* display: flex; */
-  /* background: #141527; */
-  /* height: 100vh; */
-  /* flex-direction: column; */
   text-align: center;
   width: 100%;
 }
 
 .header {
   background-color: #001715;
-  /* border-top: 25px solid #4a4e69; */
   width: 100vw;
   height: 70px;
   position: fixed;

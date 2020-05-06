@@ -10,23 +10,23 @@ const Menu = ({updateCategory}) => {
   return (
     <nav className="nav-bar">
       <button onClick={(e) => updateCategory(e, 'local')}>
-        <img className="icon" src={localImage} alt="location indicator" />
+        <img className="menu-icon" src={localImage} alt="location indicator" />
         <span>Local</span>
       </button>
       <button onClick={(e) => updateCategory(e, 'health')}>
-        <img className="icon" src={healthImage} alt="heartbeat" />
+        <img className="menu-icon" src={healthImage} alt="heartbeat" />
         <span>Health</span>
       </button>
       <button onClick={(e) => updateCategory(e, 'entertainment')}>
-        <img className="icon" src={entertainmentImage} alt="movieset board" />
+        <img className="menu-icon" src={entertainmentImage} alt="movieset board" />
         <span>Entertainment</span>
       </button>
       <button onClick={(e) => updateCategory(e, 'science')}>
-        <img className="icon" src={scienceImage} alt="rocketship" />
+        <img className="menu-icon" src={scienceImage} alt="rocketship" />
         <span>Science</span>
       </button>
       <button onClick={(e) => updateCategory(e, 'technology')}>
-        <img className="icon" src={technologyImage} alt="collection of cellphone computer tablet" />
+        <img className="menu-icon" src={technologyImage} alt="collection of cellphone computer tablet" />
         <span>Technology</span>
       </button>
       <div className="circle-one"></div>
