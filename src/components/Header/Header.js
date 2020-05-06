@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <h1>What's News?</h1>
+      <h1>What's <span>News?</span></h1>
     </header>
   )
 }
