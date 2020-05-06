@@ -4,3 +4,7 @@
   position: fixed;
   left: 3%;
 }
+
+.header span {
+  color: #c44536;
+}
