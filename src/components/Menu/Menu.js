@@ -1,14 +1,34 @@
 import React from 'react';
 import './Menu.css'
+import localImage from '../../icons/location.png';
+import healthImage from '../../icons/heart-beat.png';
+import entertainmentImage from '../../icons/movie.png';
+import scienceImage from '../../icons/rocket.png';
+import technologyImage from '../../icons/technology.png';
 
 const Menu = ({updateCategory}) => {
   return (
     <nav className="nav-bar">
-      <button onClick={(e) => updateCategory(e, 'local')}>Local</button>
-      <button onClick={(e) => updateCategory(e, 'health')}>Health</button>
-      <button onClick={(e) => updateCategory(e, 'entertainment')}>Entertainment</button>
-      <button onClick={(e) => updateCategory(e, 'science')}>Science</button>
-      <button onClick={(e) => updateCategory(e, 'technology')}>Technology</button>
+      <button onClick={(e) => updateCategory(e, 'local')}>
+        <img className="icon" src={localImage} alt="location indicator" />
+        <span>Local</span>
+      </button>
+      <button onClick={(e) => updateCategory(e, 'health')}>
+        <img className="icon" src={healthImage} alt="heartbeat" />
+        <span>Health</span>
+      </button>
+      <button onClick={(e) => updateCategory(e, 'entertainment')}>
+        <img className="icon" src={entertainmentImage} alt="movieset board" />
+        <span>Entertainment</span>
+      </button>
+      <button onClick={(e) => updateCategory(e, 'science')}>
+        <img className="icon" src={scienceImage} alt="rocketship" />
+        <span>Science</span>
+      </button>
+      <button onClick={(e) => updateCategory(e, 'technology')}>
+        <img className="icon" src={technologyImage} alt="collection of cellphone computer tablet" />
+        <span>Technology</span>
+      </button>
       <div className="circle-one"></div>
       <div className="circle-two"></div>
       <div className="circle-three"></div>
