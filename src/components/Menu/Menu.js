@@ -8,30 +8,30 @@ import technologyImage from '../../icons/technology.png';
 
 const Menu = ({updateCategory}) => {
   return (
-    <nav className="nav-bar">
-      <button onClick={(e) => updateCategory(e, 'local')}>
-        <img className="menu-icon" src={localImage} alt="location indicator" />
-        <span>Local</span>
+    <nav className='nav-bar' data-testid='nav-bar'>
+      <button id='local' onClick={(e) => updateCategory(e.target.closest('button').id)}>
+        <img className='menu-icon' src={localImage} alt='location indicator' />
+        Local
       </button>
-      <button onClick={(e) => updateCategory(e, 'health')}>
-        <img className="menu-icon" src={healthImage} alt="heartbeat" />
-        <span>Health</span>
+      <button id='health' onClick={(e) => updateCategory(e.target.closest('button').id)}>
+        <img className='menu-icon' src={healthImage} alt='heartbeat' />
+        Health
       </button>
-      <button onClick={(e) => updateCategory(e, 'entertainment')}>
-        <img className="menu-icon" src={entertainmentImage} alt="movieset board" />
-        <span>Entertainment</span>
+      <button id='entertainment' onClick={(e) => updateCategory(e.target.closest('button').id)}>
+        <img className='menu-icon' src={entertainmentImage} alt='movieset board' />
+        Entertainment
       </button>
-      <button onClick={(e) => updateCategory(e, 'science')}>
-        <img className="menu-icon" src={scienceImage} alt="rocketship" />
-        <span>Science</span>
+      <button id='science' onClick={(e) => updateCategory(e.target.closest('button').id)}>
+        <img className='menu-icon' src={scienceImage} alt='rocketship' />
+        Science
       </button>
-      <button onClick={(e) => updateCategory(e, 'technology')}>
-        <img className="menu-icon" src={technologyImage} alt="collection of cellphone computer tablet" />
-        <span>Technology</span>
+      <button id='technology' onClick={(e) => updateCategory(e.target.closest('button').id)}>
+        <img className='menu-icon' src={technologyImage} alt='collection of cellphone computer tablet' />
+        Technology
       </button>
-      <div className="circle-one"></div>
-      <div className="circle-two"></div>
-      <div className="circle-three"></div>
+      <div className='circle-one'></div>
+      <div className='circle-two'></div>
+      <div className='circle-three'></div>
     </nav>
   )
 }

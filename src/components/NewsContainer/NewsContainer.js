@@ -17,7 +17,7 @@ const NewsContainer = ({ news }) => {
   });
 
   return (
-    <main className='news-container'>
+    <main className='news-container' data-testid='news-container'>
       {newsCards}
     </main>
   )

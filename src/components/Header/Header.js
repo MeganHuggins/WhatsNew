@@ -22,11 +22,11 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className='header'>
+      <header className='header' data-testid='header'>
         <h1>What's
           <span>News?</span>
         </h1>
-        <form>
+        <form className='search-bar' data-testid='search-bar'>
           <input
             value={this.state.searchQuery}
             type='search'

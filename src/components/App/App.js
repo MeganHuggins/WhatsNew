@@ -21,11 +21,9 @@ class App extends Component {
       currentCategory: 'local',
       searchQuery: '',
     };
-    this.getNewsArticles = this.getNewsArticles.bind(this);
   };
 
-  updateCategory = (e, str) => {
-    e.preventDefault();
+  updateCategory = (str) => {
     this.setState({currentCategory: str})
   };
 
