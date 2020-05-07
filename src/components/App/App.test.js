@@ -11,9 +11,7 @@ it('renders without crashing', () => {
 });
 
 describe('<App />', () => {
-  const mockUpdateSearchQuery = jest.fn();
-  const mockGetMockArticles = jest.fn();
-
+  
   it('should render a <Header />', () => {
     const { getByTestId } = render(<App />);
 
