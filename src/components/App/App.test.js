@@ -30,5 +30,4 @@ describe('<App />', () => {
 
     expect(getByTestId('news-container')).toBeInTheDocument();
   });
-  
 });
