@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { render, unmount } from '@testing-library/react';
+import { cleanup, fireEvent, render } from '@testing-library/react';
 
 describe('<App />', () => {
 

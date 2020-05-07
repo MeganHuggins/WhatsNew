@@ -23,7 +23,9 @@ class Header extends React.Component {
   render() {
     return (
       <header className='header'>
-        <h1>What's <span>News?</span></h1>
+        <h1>What's
+          <span>News?</span>
+        </h1>
         <form>
           <input
             value={this.state.searchQuery}
