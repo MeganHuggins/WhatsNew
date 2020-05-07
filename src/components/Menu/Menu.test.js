@@ -6,7 +6,7 @@ import '@testing-library/jest-dom/extend-expect';
 
 describe('<Menu />', () => {
   it('Should render buttons', () => {
-    const { getByText } = render(<Menu/>);
+    const { getByText } = render(<Menu />);
 
     expect(getByText('Local')).toBeInTheDocument();
     expect(getByText('Health')).toBeInTheDocument();
