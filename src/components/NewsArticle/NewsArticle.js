@@ -8,9 +8,9 @@ const NewsArticle = ({id, headline, img, description, url}) => {
   };
 
   return (
-    <div className='card'>
+    <div data-testid='card' className='card'>
       <div
-      testid={img}
+      data-testid={img}
       className='card-img'
       style={style}
       />
@@ -18,7 +18,7 @@ const NewsArticle = ({id, headline, img, description, url}) => {
       <p>{description}</p>
       <div className='article-link'>
         <a
-        testid={url}
+        data-testid={url}
         href={url}>Link To Article
         </a>
         <img src={arrowImage} alt='arrow pointing right' />
