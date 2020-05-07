@@ -9,11 +9,18 @@ const NewsArticle = ({id, headline, img, description, url}) => {
 
   return (
     <div className='card'>
-      <div className='card-img' style={style}/>
+      <div
+      testid={img}
+      className='card-img'
+      style={style}
+      />
       <h3>{headline}</h3>
       <p>{description}</p>
       <div className='article-link'>
-        <a href={url}>Link To Article</a>
+        <a
+        testid={url}
+        href={url}>Link To Article
+        </a>
         <img src={arrowImage} alt='arrow pointing right' />
       </div>
     </div>
