@@ -30,4 +30,12 @@ describe('<App />', () => {
 
     expect(getByTestId('news-container')).toBeInTheDocument();
   });
+
+  it('Should change the articles in the article container to match the category button that is pushed', () => {
+    const { getByTestId, getByText } = render(<App />);
+
+    fireEvent.click(getByText('Local'), {target: {id:'local'}});
+
+    expect(getByTestId('local')).toBeInTheDocument();
+  });
 });

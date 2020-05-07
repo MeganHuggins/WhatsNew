@@ -45,7 +45,7 @@ class App extends Component {
   render () {
     const newsArticles = this.getNewsArticles();
     return (
-      <div className="app">
+      <div data-testid={this.state.currentCategory} className="app">
         <Header searchQuery={this.state.searchQuery}
           updateSearchQuery={this.updateSearchQuery}
         />
