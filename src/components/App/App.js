@@ -10,8 +10,8 @@ import technology from '../../data/technology';
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       local,
       entertainment,
@@ -19,7 +19,9 @@ class App extends Component {
       science,
       technology,
       currentCategory: 'local',
-    }
+      searchQuery: '',
+    };
+    this.getNewsArticles = this.getNewsArticles.bind(this);
   };
 
   updateCategory = (e, str) => {
@@ -27,12 +29,30 @@ class App extends Component {
     this.setState({currentCategory: str})
   };
 
+  updateSearchQuery = (query) => {
+   this.setState({ searchQuery: query });
+  };
+
+  getNewsArticles = () => {
+    if(this.state.searchQuery !== '') {
+      let allArticles = this.state[this.state.currentCategory];
+      return allArticles.filter(article => {
+        return article.headline.toLowerCase().match(this.state.searchQuery) || article.description.toLowerCase().match(this.state.searchQuery)
+      })
+    } else {
+      return this.state[this.state.currentCategory];
+    }
+  }
+
   render () {
+    const newsArticles = this.getNewsArticles();
     return (
       <div className="app">
-        <Header />
+        <Header searchQuery={this.state.searchQuery}
+          updateSearchQuery={this.updateSearchQuery}
+        />
         <Menu updateCategory={this.updateCategory} />
-        <NewsContainer news={this.state[this.state.currentCategory]} />
+        <NewsContainer news={newsArticles} />
       </div>
     );
   };
