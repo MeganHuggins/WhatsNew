@@ -11,7 +11,7 @@ it('renders without crashing', () => {
 });
 
 describe('<App />', () => {
-  
+
   it('should render a <Header />', () => {
     const { getByTestId } = render(<App />);
 
@@ -30,13 +30,5 @@ describe('<App />', () => {
 
     expect(getByTestId('news-container')).toBeInTheDocument();
   });
-
-  // it('should invoke updateCategory with correct arguments', () => {
-  //   const { getByText } = render(<App />);
-  //   const mockUpdateCategory = jest.fn();
-  //   fireEvent.click(getByText('Local'));
-  //
-  //   expect(mockUpdateCategory).toHaveBeenCalledWith('science')
-  // });
-
-})
+  
+});
