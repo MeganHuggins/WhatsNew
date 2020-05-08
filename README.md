@@ -11,7 +11,7 @@ Learning goals for this project include:
 * Create unit/ intergration tests for React components
 
 ## Screenshots
-App in action:
+
 ![whats-news-app-gif](https://media.giphy.com/media/RJOq5bcT5M65uYdNnY/giphy.gif)
 
 ## Technologies
