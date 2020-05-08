@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/MeganHuggins/WhatsNew/static/css/main.959b0afe.chunk.css",
-    "main.js": "/MeganHuggins/WhatsNew/static/js/main.4c5a7065.chunk.js",
-    "main.js.map": "/MeganHuggins/WhatsNew/static/js/main.4c5a7065.chunk.js.map",
-    "runtime-main.js": "/MeganHuggins/WhatsNew/static/js/runtime-main.09c29a63.js",
-    "runtime-main.js.map": "/MeganHuggins/WhatsNew/static/js/runtime-main.09c29a63.js.map",
-    "static/js/2.e4d574d1.chunk.js": "/MeganHuggins/WhatsNew/static/js/2.e4d574d1.chunk.js",
-    "static/js/2.e4d574d1.chunk.js.map": "/MeganHuggins/WhatsNew/static/js/2.e4d574d1.chunk.js.map",
-    "index.html": "/MeganHuggins/WhatsNew/index.html",
-    "precache-manifest.ae471693d7d3b864ca4ca5f758199cc8.js": "/MeganHuggins/WhatsNew/precache-manifest.ae471693d7d3b864ca4ca5f758199cc8.js",
-    "service-worker.js": "/MeganHuggins/WhatsNew/service-worker.js",
-    "static/css/main.959b0afe.chunk.css.map": "/MeganHuggins/WhatsNew/static/css/main.959b0afe.chunk.css.map",
-    "static/js/2.e4d574d1.chunk.js.LICENSE.txt": "/MeganHuggins/WhatsNew/static/js/2.e4d574d1.chunk.js.LICENSE.txt",
-    "static/media/rocket.png": "/MeganHuggins/WhatsNew/static/media/rocket.93aedb6c.png"
+    "main.css": "/WhatsNew/static/css/main.959b0afe.chunk.css",
+    "main.js": "/WhatsNew/static/js/main.4c5a7065.chunk.js",
+    "main.js.map": "/WhatsNew/static/js/main.4c5a7065.chunk.js.map",
+    "runtime-main.js": "/WhatsNew/static/js/runtime-main.bafe8e32.js",
+    "runtime-main.js.map": "/WhatsNew/static/js/runtime-main.bafe8e32.js.map",
+    "static/js/2.e4d574d1.chunk.js": "/WhatsNew/static/js/2.e4d574d1.chunk.js",
+    "static/js/2.e4d574d1.chunk.js.map": "/WhatsNew/static/js/2.e4d574d1.chunk.js.map",
+    "index.html": "/WhatsNew/index.html",
+    "precache-manifest.0107005e57c7fff73af7d28fc7c386d5.js": "/WhatsNew/precache-manifest.0107005e57c7fff73af7d28fc7c386d5.js",
+    "service-worker.js": "/WhatsNew/service-worker.js",
+    "static/css/main.959b0afe.chunk.css.map": "/WhatsNew/static/css/main.959b0afe.chunk.css.map",
+    "static/js/2.e4d574d1.chunk.js.LICENSE.txt": "/WhatsNew/static/js/2.e4d574d1.chunk.js.LICENSE.txt",
+    "static/media/rocket.png": "/WhatsNew/static/media/rocket.93aedb6c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.09c29a63.js",
+    "static/js/runtime-main.bafe8e32.js",
     "static/js/2.e4d574d1.chunk.js",
     "static/css/main.959b0afe.chunk.css",
     "static/js/main.4c5a7065.chunk.js"
