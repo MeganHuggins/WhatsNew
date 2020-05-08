@@ -12,7 +12,7 @@ Learning goals for this project include:
 
 ## Screenshots
 
-![whats-news-app-gif](https://giphy.com/gifs/dViHNLSm3ooYqGeI8H/html5)
+![whats-news-app-gif](https://media.giphy.com/media/dViHNLSm3ooYqGeI8H/source.mp4)
 
 ## Technologies
 * **React** for creating class and functional components
