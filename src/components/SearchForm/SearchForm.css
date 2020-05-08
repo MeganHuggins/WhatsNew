@@ -1,0 +1,21 @@
+.search-bar input {
+  background-color:transparent;
+  border: none;
+  color:#fff;
+  font-size: 30px;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.search-bar button {
+  background-color: #c44536;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  height: 50px;
+  margin: 10px 10px 0px 0px;
+  text-transform: uppercase;
+  width: 20%;
+}

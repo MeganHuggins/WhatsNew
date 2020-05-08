@@ -1,15 +1,15 @@
 .nav-bar button {
-  display: flex;
   background-color: rgba(237, 221, 212, 0.84);
-  border: none;
   border-radius: 0px 90px 90px 0px;
+  border: none;
   color: black;
+  display: flex;
   font-size: 22px;
   height: 8%;
   margin: 10px 0px 10px;
-  width: 75%;
   transition: width 0.5s ease,
               border-radius 0.5s ease;
+  width: 75%;
 }
 
 .nav-bar button:hover {
@@ -21,8 +21,8 @@
 }
 
 .menu-icon {
- width: 30px;
  margin: 0px 10px 0px 5px;
+ width: 30px;
 }
 
 .circle-one, .circle-two, .circle-three {
@@ -34,23 +34,23 @@
 .circle-one {
   background-color: rgba(119, 46, 37, 0.84);
   height: 130px;
-  width: 130px;
-  top: 90px;
   left: 145px;
+  top: 90px;
+  width: 130px;
 }
 
 .circle-two {
   background-color: rgba(237, 221, 212, 0.74);
-  height: 90px;
-  width: 90px;
   bottom: 100px;
+  height: 90px;
   left: 150px;
+  width: 90px;
 }
 
 .circle-three {
   background-color: rgba(196, 69, 54, 0.74);
-  height: 40px;
-  width: 40px;
   bottom: 100px;
+  height: 40px;
   left: 245px;
+  width: 40px;
 }
