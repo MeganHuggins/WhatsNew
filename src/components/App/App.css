@@ -11,10 +11,10 @@
 
 .header {
   background-color: #001715;
-  width: 100vw;
   height: 70px;
   position: fixed;
   top: 0;
+  width: 100vw;
   z-index: 100;
 }
 
@@ -23,19 +23,19 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 20%;
-  margin-top: 70px;
-  position: fixed;
-  padding-top: 1%;
   left: 0;
+  margin-top: 70px;
+  padding-top: 1%;
+  position: fixed;
+  width: 20%;
 }
 
 .news-container {
   background-color: #197278;
-  width: 80%;
-  padding-top: 10px;
   margin-top: 70px;
+  overflow: scroll;
+  padding-top: 10px;
   position: absolute;
   right: 0;
-  overflow: scroll;
+  width: 80%;
 }
